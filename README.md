@@ -1,0 +1,3 @@
+
+
+This project implements a heat transfer simulation using MPI, a popular message-passing interface for distributed computing. The simulation divides the heat distribution domain into smaller sub-domains, which are then distributed across multiple processors to be computed in parallel. Each processor sends and receives data from its neighboring processors to update the temperature values at the domain boundaries, until the simulation reaches a steady state. This implementation aims to accelerate the simulation time and reduce the memory requirements by leveraging the parallelism and scalability of MPI.
